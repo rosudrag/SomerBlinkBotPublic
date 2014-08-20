@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomerBlinkPromoBot", "TrialProject\SomerBlinkPromoBot.csproj", "{F479210D-B3BE-4A8A-BEDD-9F82373AD286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomerBlinkSpecific", "SomerBlinkSpecific\SomerBlinkSpecific.csproj", "{202201F3-A886-4B03-9001-15E705993FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreThereAnyPromosRESTAPI", "AreThereAnyPromosRESTAPI\AreThereAnyPromosRESTAPI.csproj", "{9E4FE3E2-EDF6-4609-A9CA-AAD2C6C8EF89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{28E88D0A-C439-4B52-A80F-E1671B0855B4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5FE6523C-C1DA-4E65-BB03-4648E98EF323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{A2B91458-E45A-4AFD-9700-B4E4AA0FD056}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rosudrag.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AreThereAnyPromosRESTAPI\\AreThereAnyPromosRESTAPI.csproj
+		SccProjectName1 = AreThereAnyPromosRESTAPI
+		SccLocalPath1 = AreThereAnyPromosRESTAPI
+		SccProjectUniqueName2 = SomerBlinkSpecific\\SomerBlinkSpecific.csproj
+		SccProjectName2 = SomerBlinkSpecific
+		SccLocalPath2 = SomerBlinkSpecific
+		SccProjectUniqueName3 = TrialProject\\SomerBlinkPromoBot.csproj
+		SccProjectName3 = TrialProject
+		SccLocalPath3 = TrialProject
+		SccProjectUniqueName4 = Core\\Core.csproj
+		SccProjectTopLevelParentUniqueName4 = TrialProject.sln
+		SccProjectName4 = Core
+		SccLocalPath4 = Core
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F479210D-B3BE-4A8A-BEDD-9F82373AD286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F479210D-B3BE-4A8A-BEDD-9F82373AD286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F479210D-B3BE-4A8A-BEDD-9F82373AD286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F479210D-B3BE-4A8A-BEDD-9F82373AD286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202201F3-A886-4B03-9001-15E705993FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202201F3-A886-4B03-9001-15E705993FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202201F3-A886-4B03-9001-15E705993FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202201F3-A886-4B03-9001-15E705993FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4FE3E2-EDF6-4609-A9CA-AAD2C6C8EF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4FE3E2-EDF6-4609-A9CA-AAD2C6C8EF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4FE3E2-EDF6-4609-A9CA-AAD2C6C8EF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4FE3E2-EDF6-4609-A9CA-AAD2C6C8EF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B91458-E45A-4AFD-9700-B4E4AA0FD056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B91458-E45A-4AFD-9700-B4E4AA0FD056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B91458-E45A-4AFD-9700-B4E4AA0FD056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B91458-E45A-4AFD-9700-B4E4AA0FD056}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2B91458-E45A-4AFD-9700-B4E4AA0FD056} = {5FE6523C-C1DA-4E65-BB03-4648E98EF323}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
